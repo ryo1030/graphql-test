@@ -13,5 +13,4 @@ jobs:
 
       - uses: kamilkisiela/graphql-inspector@v3.1.1
         with:
-          schema: 'main'
-          endpoint: 'https://github.com/ryo1030/graphql-test/tree/main/schemas'
+          schema: 'main:schemas/schema_1.graphql, schemas/test/schema_2.graphql, '
