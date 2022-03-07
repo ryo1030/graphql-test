@@ -13,4 +13,7 @@ jobs:
 
       - uses: kamilkisiela/graphql-inspector@v3.1.1
         with:
-          schema: 'main:schemas/schema_1.graphql, schemas/test/schema_2.graphql, '
+          schema: 'main:schemas/schema_1.graphql'
+      - uses: kamilkisiela/graphql-inspector@v3.1.1
+        with:
+          schema: 'main:schemas/test/schema_2.graphql'
