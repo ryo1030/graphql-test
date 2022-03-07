@@ -7,7 +7,6 @@ type Text {
     textId: ID! # テキストID
     textData: String! # テキスト内容
     hoge: String
-    huga: String
 }
 
 input TextCondition {
