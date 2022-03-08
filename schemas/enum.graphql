@@ -1,0 +1,4 @@
+enum PurchaseMethod {
+    RENTAL
+    PURCHASE
+}

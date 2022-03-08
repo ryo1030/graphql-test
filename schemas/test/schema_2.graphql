@@ -3,6 +3,7 @@ type Query {
     aaa: String
     iii: String
     uuu: URI!
+    eee: PurchaseMethod
 }
 
 type Text {

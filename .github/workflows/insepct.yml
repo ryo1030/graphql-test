@@ -15,6 +15,9 @@ jobs:
           schema: 'main:schemas/base.graphql'
       - uses: kamilkisiela/graphql-inspector@v3.1.1
         with:
+          schema: 'main:schemas/enum.graphql'
+      - uses: kamilkisiela/graphql-inspector@v3.1.1
+        with:
           schema: 'main:schemas/schema_1.graphql'
       - uses: kamilkisiela/graphql-inspector@v3.1.1
         with:
